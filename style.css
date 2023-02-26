@@ -530,15 +530,15 @@ img { max-width: 100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
 
-@media (min-device-width:300px) {
-    img[data-src-300px] {
-        content: attr(data-src-300px, url);
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
     }
 }
 
-@media (min-device-width:400px) {
-    img[data-src-400px] {
-        content: attr(data-src-400px, url);
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
     }
 }
 
